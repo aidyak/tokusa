@@ -28,6 +28,7 @@ set(0, "Identifier", { fg = "#d7ffd7" })
 set(0, "PreProc", { fg = "#6fbf8a" })
 set(0, "Special", { fg = "#8fd39a" })
 set(0, "Error", { fg = "#ff6b6b", bold = true })
+set(0, "Conditional", { fg = "##e8b4b8", bold = true })
 
 -- treesitter
 set(0, "@comment", { link = "Comment" })
