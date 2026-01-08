@@ -6,9 +6,13 @@ end
 vim.g.colors_name = "tokusa"
 
 local set = vim.api.nvim_set_hl
+local config = require("tokusa.config")
+local opts = config.options
+
+local bg = opts.transparent and "NONE" or "#0f1510"
 
 -- minimam
-set(0, "Normal", { fg = "#d7ffd7", bg = "#0f1510" })
+set(0, "Normal", { fg = "#d7ffd7", bg = bg })
 set(0, "Comment", { fg = "#5f7f62", italic = true })
 set(0, "CursorLine", { bg = "#141c15" })
 set(0, "LineNr", { fg = "#5f7f62" })
