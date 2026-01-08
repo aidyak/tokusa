@@ -1,6 +1,8 @@
 # 🌿 tokusa.nvim
 
-木賊(tokusa) - A dark green colorscheme for Neovim
+木賊(tokusa)
+
+緑を中心に設定したカラースキームです
 
 ## Installation
 
