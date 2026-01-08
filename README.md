@@ -6,7 +6,7 @@
 
 ## Installation
 
-### lazy.nvi
+### lazy.nvim
 
 
 ```lua
