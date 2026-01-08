@@ -6,7 +6,8 @@
 
 ## Installation
 
-### lazy.nvim
+### lazy.nvi
+
 
 ```lua
 {
@@ -20,6 +21,8 @@
   end,
 }
 ```
+
+optsには[docs](https://github.com/aidyak/tokusa/tree/main/docs)配下のドキュメントを参照して値を入れてください
 
 以下動作確認をしていないので、ご自身でトライしてみてください。
 何が問題があればPRをください。
