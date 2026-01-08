@@ -146,3 +146,7 @@ set(0, "TelescopeSelectionCaret", { fg = "#8fd39a", bg = "#1b2a1c" })
 set(0, "TelescopeMultiSelection", { fg = "#b7f7c1", bg = "#1b2a1c" })
 set(0, "TelescopeMultiIcon", { fg = "#8fd39a" })
 set(0, "TelescopeMatching", { fg = "#b7f7c1", bold = true })
+
+-- etc...
+set(0, "Debug", { fg = "#ae58f5" })
+set(0, "Ignore", { fg = "f5c833" })
