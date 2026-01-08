@@ -13,7 +13,9 @@
   "aidyak/tokusa",
   lazy = false,
   priority = 1000,
-  config = function()
+  opts = {},
+  config = function(_, opts)
+    require("tokusa").setup(opts)
     vim.cmd.colorscheme("tokusa")
   end,
 }
