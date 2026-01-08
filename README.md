@@ -1,4 +1,4 @@
-# 🌿 tokusa.nvim
+# 🌿 tokusa
 
 木賊(tokusa)
 
