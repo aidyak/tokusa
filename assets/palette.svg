@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380">
+  <rect width="800" height="380" fill="#0a0f0b" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#d7ffd7" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="16" font-weight="bold">tokusa palette</text>
+
+  <!-- ── Green Spectrum ── -->
+  <text x="28" y="58" fill="#6fbf8a" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" letter-spacing="1.5" font-weight="bold">GREEN SPECTRUM</text>
+  <line x1="158" y1="54" x2="772" y2="54" stroke="#1b2a1c" stroke-width="1"/>
+
+  <!-- Row 1: 12 green blocks  x = 28 + 62*i -->
+  <rect x="28"  y="70" width="56" height="48" rx="6" fill="#0f1510" stroke="#223023" stroke-width="1"/>
+  <rect x="90"  y="70" width="56" height="48" rx="6" fill="#141c15" stroke="#223023" stroke-width="1"/>
+  <rect x="152" y="70" width="56" height="48" rx="6" fill="#182318" stroke="#223023" stroke-width="1"/>
+  <rect x="214" y="70" width="56" height="48" rx="6" fill="#1b2a1c" stroke="#223023" stroke-width="1"/>
+  <rect x="276" y="70" width="56" height="48" rx="6" fill="#334a37"/>
+  <rect x="338" y="70" width="56" height="48" rx="6" fill="#5f7f62"/>
+  <rect x="400" y="70" width="56" height="48" rx="6" fill="#6fbf8a"/>
+  <rect x="462" y="70" width="56" height="48" rx="6" fill="#8fd39a"/>
+  <rect x="524" y="70" width="56" height="48" rx="6" fill="#a8d5a2"/>
+  <rect x="586" y="70" width="56" height="48" rx="6" fill="#b7f7c1"/>
+  <rect x="648" y="70" width="56" height="48" rx="6" fill="#c5f0c5"/>
+  <rect x="710" y="70" width="56" height="48" rx="6" fill="#d7ffd7"/>
+
+  <!-- Hex labels -->
+  <text x="56"  y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#0f1510</text>
+  <text x="118" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#141c15</text>
+  <text x="180" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#182318</text>
+  <text x="242" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#1b2a1c</text>
+  <text x="304" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#334a37</text>
+  <text x="366" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#5f7f62</text>
+  <text x="428" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#6fbf8a</text>
+  <text x="490" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#8fd39a</text>
+  <text x="552" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#a8d5a2</text>
+  <text x="614" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#b7f7c1</text>
+  <text x="676" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#c5f0c5</text>
+  <text x="738" y="132" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#d7ffd7</text>
+
+  <!-- Role labels -->
+  <text x="56"  y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">bg</text>
+  <text x="118" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">surface</text>
+  <text x="180" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">overlay</text>
+  <text x="242" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">selection</text>
+  <text x="304" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">border</text>
+  <text x="366" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">comment</text>
+  <text x="428" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">statement</text>
+  <text x="490" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">operator</text>
+  <text x="552" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">string</text>
+  <text x="614" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">number</text>
+  <text x="676" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">param</text>
+  <text x="738" y="144" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">fg</text>
+
+  <!-- ── Accents ── -->
+  <text x="28" y="172" fill="#6fbf8a" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" letter-spacing="1.5" font-weight="bold">ACCENTS</text>
+  <line x1="100" y1="168" x2="772" y2="168" stroke="#1b2a1c" stroke-width="1"/>
+
+  <!-- Row 2: 8 accent blocks -->
+  <rect x="28"  y="184" width="56" height="48" rx="6" fill="#AF7FDF"/>
+  <rect x="90"  y="184" width="56" height="48" rx="6" fill="#7fdfaf"/>
+  <rect x="152" y="184" width="56" height="48" rx="6" fill="#7fdfcf"/>
+  <rect x="214" y="184" width="56" height="48" rx="6" fill="#DFAF7F"/>
+  <rect x="276" y="184" width="56" height="48" rx="6" fill="#DE8F5D"/>
+  <rect x="338" y="184" width="56" height="48" rx="6" fill="#e8b4b8"/>
+  <rect x="400" y="184" width="56" height="48" rx="6" fill="#dbb88a"/>
+  <rect x="462" y="184" width="56" height="48" rx="6" fill="#c4a882"/>
+
+  <!-- Hex labels -->
+  <text x="56"  y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#AF7FDF</text>
+  <text x="118" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#7fdfaf</text>
+  <text x="180" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#7fdfcf</text>
+  <text x="242" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#DFAF7F</text>
+  <text x="304" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#DE8F5D</text>
+  <text x="366" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#e8b4b8</text>
+  <text x="428" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#dbb88a</text>
+  <text x="490" y="246" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#c4a882</text>
+
+  <!-- Role labels -->
+  <text x="56"  y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">function</text>
+  <text x="118" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">method</text>
+  <text x="180" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">call</text>
+  <text x="242" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">keyword</text>
+  <text x="304" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">constant</text>
+  <text x="366" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">conditional</text>
+  <text x="428" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">macro</text>
+  <text x="490" y="258" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">attribute</text>
+
+  <!-- ── Diagnostics ── -->
+  <text x="28" y="286" fill="#6fbf8a" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" letter-spacing="1.5" font-weight="bold">DIAGNOSTICS</text>
+  <line x1="130" y1="282" x2="772" y2="282" stroke="#1b2a1c" stroke-width="1"/>
+
+  <!-- Row 3: 4 diagnostic blocks -->
+  <rect x="28"  y="298" width="56" height="48" rx="6" fill="#ff6b6b"/>
+  <rect x="90"  y="298" width="56" height="48" rx="6" fill="#ffd166"/>
+  <rect x="152" y="298" width="56" height="48" rx="6" fill="#4dabf7"/>
+  <rect x="214" y="298" width="56" height="48" rx="6" fill="#8fd39a"/>
+
+  <!-- Hex labels -->
+  <text x="56"  y="360" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#ff6b6b</text>
+  <text x="118" y="360" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#ffd166</text>
+  <text x="180" y="360" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#4dabf7</text>
+  <text x="242" y="360" text-anchor="middle" fill="#5f7f62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">#8fd39a</text>
+
+  <!-- Role labels -->
+  <text x="56"  y="372" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">error</text>
+  <text x="118" y="372" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">warn</text>
+  <text x="180" y="372" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">info</text>
+  <text x="242" y="372" text-anchor="middle" fill="#334a37" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8">hint</text>
+</svg>

@@ -1,8 +1,26 @@
 # 🌿 tokusa
 
-木賊(tokusa)
+木賊(tokusa) — Neovim用のダークグリーンカラースキーム
 
-緑を中心に設定したカラースキームです
+深い森の中にいるような、落ち着いた緑を基調とした配色です。
+緑のグラデーションを軸に、オレンジやピンクのアクセントカラーで視認性を確保しています。
+
+## Palette
+
+![tokusa color palette](./assets/palette.svg)
+
+## Features
+
+- 深い緑を基調としたダークテーマ
+- 12段階の緑のグラデーションによる自然な階調表現
+- Treesitter対応のシンタックスハイライト
+- 透過背景オプション (`transparent = true`)
+
+### Supported Plugins
+
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- LazyGit
 
 ## Installation
 
@@ -76,4 +94,3 @@ Then add to your config:
 ```lua
 vim.cmd.colorscheme("tokusa")
 ```
-
